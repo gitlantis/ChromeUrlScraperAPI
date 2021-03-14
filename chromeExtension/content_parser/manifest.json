@@ -1,0 +1,25 @@
+{
+  "name": "HTML parser via URL",
+  "version": "1.0",
+  "description": "HTML parser via URL Extension",
+  "permissions": ["activeTab", "storage", "tabs", "declarativeContent", "webRequest"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/svg-7-16.png",
+      "32": "images/svg-7-32.png",
+      "48": "images/svg-7-48.png",
+      "128": "images/svg-7-128.png"
+    }
+  },
+  "icons": {
+    "16": "images/svg-7-16.png",
+    "32": "images/svg-7-32.png",
+    "48": "images/svg-7-48.png",
+    "128": "images/svg-7-128.png"
+  },  
+  "manifest_version": 3
+}
